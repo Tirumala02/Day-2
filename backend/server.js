@@ -14,7 +14,7 @@ app.use(cors({
 }));
 
 // 🔹 Connect to MongoDB
-mongoose.connect("mongodb+srv://raju:oD51GUlasNMF2o7Q@clustertodo.aaad3tr.mongodb.net/?appName=ClusterTODO")
+mongoose.connect("")
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
